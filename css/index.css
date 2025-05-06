@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: gold;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+.content{
+    flex: 3;
+    padding-right: 2rem;
+}
+
+aside{
+    flex: 1;
+    align-self:flex-end ;
+    background-color: #4117d6;
+    flex-flow: column;
+    padding: 1rem;
+    border-left: 1px solid;
+
+}
+
+aside nav ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: chartreuse;
+    color: aliceblue;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
